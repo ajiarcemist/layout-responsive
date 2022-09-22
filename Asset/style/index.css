@@ -30,6 +30,29 @@ ul.nav{
     height: 650px;
 
 }
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width:100%;
+}
+.card img{
+    display: block;
+border-radius: 10px;
+
+border: 1px solid #888;
+margin: 20px;
+width:20em;
+
+}
+.card-title{
+    position: absolute;
+padding: 14vh 0vh 0vh 19vh;
+color: white;
+font-size: 24px;
+}
+
+
 .footer{
     background: #c2c3c3;
 padding: 20px;
